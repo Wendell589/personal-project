@@ -1,0 +1,206 @@
+#navbar { 
+    float: right;
+    text-align: right;
+    margin: 0 auto;
+    top: 0;
+    position: fixed;
+    justify-items: right;
+    width: 100%;
+    }
+    
+    html {
+    background: linear-gradient(
+      180deg,
+      #98d5ff 10%,
+      #7bbaff 25%,
+      #8bffff 90%
+    );
+    border: none;
+    }
+    .nav {
+    text-decoration: none;
+    color: black;
+    }
+    .nav:hover {
+      color: #8d62ff;
+    }
+    
+    .nav:active {
+      color: gray;
+      animation: linear;
+    }
+    
+    h2 {
+      text-align: center;
+      font-size: 1.8em;
+    }
+    .color1 {
+      margin:0 auto;
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    /*I tried cleaning up my css code, 
+    unfortunatly thing start moving out of place,
+    when I try moving some proparties in the next three block selectors */
+    
+    .block1 {
+      width: 35%;
+      display: block;
+      justify-content: left;
+      float: left;
+    }
+      
+    .block2 {
+      display: block;
+      justify-content: center;
+      width: 30%;
+    }
+    .block3 {
+      display: block;
+      justify-items: right;
+      width: 35%;
+    }
+    /*below is the styling for the block alongside the about block*/
+    .blocks {
+      display: flex;
+      width: 100%;
+      padding: 20px;
+      /*tried to make a transparent window
+        I couldnt get how to do it without making my 
+         text opacity lowering as well*/
+      background-color: white 60%;
+      border-radius: 10px;
+    }
+
+    .projects {
+      justify-content: space-between;
+    }
+    
+    /*like wise,
+    cleaning up the code for the project section was taugh but i am happy with the results*/
+    
+    .minib1 {
+      width: 16%;
+      font-size: 0.7rem;
+      border-radius: 7%;
+      background-color: white 40%;
+      margin-top: 19px;
+    }
+    
+    .minib2 {
+      width: 16%;
+      font-size: 0.7rem;
+      border-radius: 7%;
+      background-color: white 40%;
+      margin-top: 44px;
+    }
+    
+    .minib3 {
+      width: 16%;
+      font-size: 0.7rem;
+      border-radius: 7%;
+      background-color: white 40%;
+      margin-top: 35px;
+    }
+    
+    .minib4 {
+      width: 16%;
+      font-size: 0.7rem;
+      border-radius: 7%;
+      background-color:white 40%;
+      justify-items: right;
+      margin-top: 45px;
+    }
+    
+    .minib5 {
+      width: 16%;
+      font-size: 0.7rem;
+      border-radius: 7%;
+      background-color:white 40%;
+      justify-items: right;
+      margin-top: 44px;
+    }
+    
+    .minib6 {
+      width: 15%;
+      font-size: 0.7rem;
+      border-radius: 7%;
+      background-color:white 40%;
+      margin-top: 43px;
+    }
+    
+    .mini-boxs {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-between;
+    margin-top: 15%;
+    }
+    /*this is code for the input area and the labels*/
+    .connect {
+      display: block;
+      width: 40%;
+      margin: 15% auto;
+      justify-content: center;
+      border-radius: 5%;
+      padding: 20px;
+    }
+    
+    input {
+      padding: 3px;
+      margin-top: 7px;
+      margin-bottom: 5px;
+      width: 270px;
+      justify-content: center;
+      display: block;
+      overflow: hidden;
+      border-radius: 2.5%;
+      color: black;
+    }
+     /* the styling for my submit button*/
+    #submit {
+      justify-items: center;
+      margin: auto;
+      margin-bottom: 30px;
+      font-size: 1.7rem;
+    }
+    
+    #submit:hover {
+      color: #397d97;
+    }
+    #submit:active {
+      background-color: #b1e4e0;
+    }
+    
+    #profile-link {
+      justify-items: center;
+      width: 100%;
+      margin: 4 auto;
+      padding-top: 20px;
+      padding-left: 40px;
+      font-size: 2rem;
+      color: black;
+    }
+    
+    #profile-link:hover {
+    color: gray;
+    }
+    
+    #profile-link:active {
+     color: orangered;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 30px;
+    }
+    
+    
+    @media onlyscreen and (max-width: 780px){
+    * {
+      max-width: 100%;
+      min-width: 200px;
+    }
+    }
+    
